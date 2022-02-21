@@ -8,7 +8,7 @@ const reposc = require("@sharefe-demo-monorepo/repo-c");
 repoA();
 
 function repoA() {
-  console.log("\n ------------- START(`repo-a` repo@v0.0.1) -------------");
+  console.log("\n ------------- START(`repo-a` repo@v{{VERSION}}) -------------");
 
   // Call dayjs (3th party lib)
   console.log(`\nToday: ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`)

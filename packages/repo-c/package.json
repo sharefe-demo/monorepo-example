@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "replace-template-tags": "^1.1.1"
   }
 }
