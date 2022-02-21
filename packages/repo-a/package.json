@@ -27,6 +27,8 @@
     "url": "https://github.com/sharefe-demo/monorepo-example/issues"
   },
   "dependencies": {
+    "@sharefe-demo-monorepo/repo-c": "^0.0.2",
+    "dayjs": "^1.10.7",
     "lodash": "^4.17.21"
   }
 }
