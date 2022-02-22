@@ -1,6 +1,6 @@
 {
   "name": "@sharefe-demo-monorepo/repo-a",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "monorepo demo a",
   "author": "afe <nomail@local>",
   "homepage": "https://github.com/sharefe-demo/monorepo-example#readme",
