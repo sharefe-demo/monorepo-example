@@ -3,6 +3,7 @@ const pkg = require('./package.json')
 
 const templateFileName = 'repo-a.js'
 
+// Make files
 console.log('\nReplacing the file with template... ')
 const template = fs.readFileSync('./src/' + templateFileName, 'utf-8')
 const replaced = template.replace('{{VERSION}}', pkg.version)

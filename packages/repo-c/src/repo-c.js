@@ -6,6 +6,6 @@ module.exports = repoC;
 
 function repoC() {
     const changed = 'changed to 3'
-
-    return `${pkg.name}, v{{VERSION}} - ${changed}`
+    // Build v{{VERSION}}
+    return `${pkg.name}, v${pkg.version} - ${changed}`
 }
