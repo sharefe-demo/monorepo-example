@@ -2,6 +2,12 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "replace-template-tags": "^1.1.1"
+  },
+  "dependencies": {
+    "@sharefe-demo-monorepo/repo-a": "file:packages/repo-a",
+    "@sharefe-demo-monorepo/repo-b": "file:packages/repo-b",
+    "@sharefe-demo-monorepo/repo-c": "file:packages/repo-c"
   }
 }
